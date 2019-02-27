@@ -27,6 +27,20 @@
    "source": [
     "In Fall 2014, in the courses.csv,meetings and timecodes have []"
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "In Spring 2019, Easter start and end time are the same"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {

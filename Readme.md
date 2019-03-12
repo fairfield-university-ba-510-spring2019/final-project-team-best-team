@@ -33,7 +33,7 @@
 * Documented the fact table and associated dimensions as a separate ERD. 
 * Populated the fact and dimensions table in *CourseDataWarehouse.db* by extracting data from *CourseData.db*.
 
-#### 8. Tested the integrity of [CourseDataWarehouse.db](https://github.com/fairfield-university-ba-510-spring2019/final-project-team-best-team/blob/master/CourseDataWarehouseTest.ipynb)
+#### 8. Tested the integrity of [CourseDataWarehouseTest](https://github.com/fairfield-university-ba-510-spring2019/final-project-team-best-team/blob/master/CourseDataWarehouseTest.ipynb)
 * Similar to *CourseDataTests* ensured integrity checks for Domain integrity, Entity integrity and Relational integrity.
 
 #### 9. Demo of the CourseDataWarehouse [CourseDataWarehouse Demo](https://github.com/fairfield-university-ba-510-spring2019/final-project-team-best-team/blob/master/CourseDataWarehouseDemo.ipynb) 

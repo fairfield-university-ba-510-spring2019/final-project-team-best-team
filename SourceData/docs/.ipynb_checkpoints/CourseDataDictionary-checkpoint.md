@@ -21,11 +21,13 @@
 * Section: Section of the course <br>
 * Course_Title (FK): Foreign key referencing Catalog_Courses table <br>
 * Credits: Number of credits for the course <br>
+* Term_Name(FK): Foreign key referencing Term table <br>
 
 ## Course_Meeting
 
 * CM_ID: Surrogate Key <br>
 * CRN: Course Reference Number <br>
+* Term_Name(FK): Foreign key referencing Term table <br>
 * Section(FK): Foreign key referencing Course_Offering table <br>
 * Cap: Capacity of number of students allowed to enroll <br>
 * Act: Actual number of students who enrolled <br>
@@ -35,7 +37,6 @@
 
 * Term_ID (PK): Surrogate Key <br>
 * Term_Name: The specific term/semester for the course <br>
-* CRN(FK): Foreign key referencing Course_Offering table <br>
 
 ## Instructor
 
@@ -43,11 +44,13 @@
 * Name: Name of the instructor teaching the course <br>
 * Course_Title (FK): Foreign key referencing Course_Offerings table  <br>
 * CRN: Course Reference Number <br>
+* Term_Name(FK): Foreign key referencing Term table <br>
 
 ## Time_Code
 
 * Time_ID (PK): Surrogate Key <br>
 * CRN (FK): Foreign key referencing Course_Offerings table  <br>
+* Term_Name(FK): Foreign key referencing Term table <br>
 * Start_Time: Starting time of the course in ISO <br>
 * End_Time: Ending time of the course in ISO <br>
 
@@ -56,3 +59,4 @@
 * Room_ID (PK): Surrogate Key <br>
 * Room_No: Building and room information from 'Location' <br>
 * CRN (FK): Foreign key referencing Course_Meetings table <br>
+* Term_Name(FK): Foreign key referencing Term table <br>

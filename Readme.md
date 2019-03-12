@@ -28,10 +28,10 @@
 * Frames the fact tables and dimesions of the datawarehouse.
 * Designed it into to create a star schema to document the fact table and associated dimensions as a separate ERD. 
 
-#### 7. Design and build data warehouse [CourseDataWarehouse.db](link)
-* Created a star schema design to frame our dimensions and fact tables. 
-* Documented the fact table and associated dimensions as a separate ERD. 
+#### 7. Design and build [DataWarehouse](https://github.com/fairfield-university-ba-510-spring2019/final-project-team-best-team/blob/master/Datawarehouse.ipynb)
 * Populated the fact and dimensions table in *CourseDataWarehouse.db* by extracting data from *CourseData.db*.
+* *Datawarehouse* supports the codes for extracting data from the database
+* All the SQL DDL and DML code for creating and populating the *Datawarehouse* tables is captured in this notebook.
 
 #### 8. Tested the integrity of [CourseDataWarehouseTest](https://github.com/fairfield-university-ba-510-spring2019/final-project-team-best-team/blob/master/CourseDataWarehouseTest.ipynb)
 * Similar to *CourseDataTests* ensured integrity checks for Domain integrity, Entity integrity and Relational integrity.
